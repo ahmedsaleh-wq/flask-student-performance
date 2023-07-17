@@ -1,6 +1,5 @@
 import os
 from flask import Flask, render_template, request, jsonify
-import numpy as np
 import joblib
 import pandas as pd
 app = Flask(__name__)
