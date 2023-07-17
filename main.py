@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 app = Flask(__name__)
 
-ensemble_model = joblib.load('ensemble_model.pkl')
+ensemble_model = joblib.load('/app/ensemble_model.pkl')
 
 age_mapping = {1: [18, 21], 2: [22, 25], 3: [26, 100]}
 sex_mapping = {1: 'female', 2: 'male'}
